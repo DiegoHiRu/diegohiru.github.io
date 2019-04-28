@@ -884,6 +884,19 @@ dl dd {
 
 /* Actions */
 
+ul.actionscenter {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  cursor: default;
+  list-style: none;
+  margin-left: -1rem;
+  padding-left: 0;
+  position: relative;
+  left: 25%;
+}
+
 ul.actions {
   display: -moz-flex;
   display: -webkit-flex;
