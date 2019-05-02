@@ -17,6 +17,7 @@ function initGallery() {
   for (var i = 0; i < slides.length; i++) {
     var dot = document.createElement("span");
     dot.classList.add("dots");
+    dot.setAttribute("onClick", "moveSlide(" + i + ")");
     dotsContainer.append(dot);
     dots.push(dot);
   }
