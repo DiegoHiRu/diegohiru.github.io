@@ -41,10 +41,10 @@ function moveSlide(n) {
     moveSlideAnimClass.forNext = "moveLeftNextSlide";
   } else if (n < slideIndex) {
     if (n < 0) {
-      n < slides.length - 1;
-      moveSlideAnimClass.forCurrent = "moveRightCurrentSlide";
-      moveSlideAnimClass.forNext = "moveRightNextSlide";
+      n = slides.length - 1;
     }
+    moveSlideAnimClass.forCurrent = "moveRightCurrentSlide";
+    moveSlideAnimClass.forNext = "moveRightNextSlide";
   }
   if (n != slideIndex) {
     next = slides[n];
