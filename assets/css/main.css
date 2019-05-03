@@ -434,11 +434,6 @@ hr {
   height: 1000px;
   max-width: 1000px;
   user-select: none;
-
-  /*box-shadow: 0px 0px 3px 1px #00000078;
-  padding: 10px;
-  box-sizing: border-box;
-  margin: 0 auto;*/
 }
 
 .galleryContainer .slideShowContainer {
@@ -535,14 +530,14 @@ hr {
 
 .galleryContainer .slideShowContainer .leftArrow,
 .galleryContainer .slideShowContainer .rightArrow {
-  width: 50px;
+  width: 10%;
   background: #ffffff36;
   position: absolute;
   left: 0;
   z-index: 1;
   transition: background 0.5s;
-  height: 72px;
-  top: 35%;
+  height: 10%;
+  top: 13%;
   transform: translateY(-50%);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
